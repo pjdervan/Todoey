@@ -35,7 +35,7 @@ class TodoListViewController: UITableViewController {
         
         cell.textLabel?.text = itemArray[indexPath.row]
 
-        return cell
+        return cell 
     }
     
     // MARK - TableView Delegate Methods
